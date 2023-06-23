@@ -63,11 +63,25 @@ class ProfilePage extends React.Component {
   }
 
   componentDidMount() {
+    this.addScriptHeader();
     this.props.fetchProfile(this.props.match.params.username);
     sendTrackingLogEvent('edx.profile.viewed', {
       username: this.props.match.params.username,
     });
   }
+
+  addScriptHeader() {
+		const script = document.createElement("script");
+		script.type = "application/json";
+		script.innerHTML = `gtag('config', 'G-XDGY5ZHRR0', {
+      'user_id': ${this.context.authenticatedUser.userId} 
+      });`;
+		script.async = true;
+		document.head.appendChild(script);
+		return () => {
+		  document.head.removeChild(script);
+		}
+	}
 
   handleSaveProfilePhoto(formData) {
     this.props.saveProfilePhoto(this.context.authenticatedUser.username, formData);
