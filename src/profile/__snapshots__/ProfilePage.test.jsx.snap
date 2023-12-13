@@ -5,7 +5,7 @@ exports[`<ProfilePage /> Renders correctly in various states app loading 1`] = `
   className="profile-page"
 >
   <div
-    className="profile-page-bg-banner bg-primary d-none d-md-block p-relative"
+    className="profile-page-bg-banner bg-primary d-md-block p-relative"
   />
   <div>
     <div
@@ -36,7 +36,7 @@ exports[`<ProfilePage /> Renders correctly in various states test country edit w
   className="profile-page"
 >
   <div
-    className="profile-page-bg-banner bg-primary d-none d-md-block p-relative"
+    className="profile-page-bg-banner bg-primary d-md-block p-relative"
   />
   <div
     className="container-fluid"
@@ -2307,7 +2307,7 @@ exports[`<ProfilePage /> Renders correctly in various states test country edit w
               className="row align-items-stretch"
             >
               <div
-                className="col col-sm-6 d-flex align-items-stretch"
+                className="col-12 col-sm-6 d-flex align-items-stretch"
               >
                 <div
                   className="card mb-4 certificate flex-grow-1"
@@ -2419,7 +2419,7 @@ exports[`<ProfilePage /> Renders correctly in various states test education edit
   className="profile-page"
 >
   <div
-    className="profile-page-bg-banner bg-primary d-none d-md-block p-relative"
+    className="profile-page-bg-banner bg-primary d-md-block p-relative"
   />
   <div
     className="container-fluid"
@@ -3484,7 +3484,7 @@ exports[`<ProfilePage /> Renders correctly in various states test education edit
               className="row align-items-stretch"
             >
               <div
-                className="col col-sm-6 d-flex align-items-stretch"
+                className="col-12 col-sm-6 d-flex align-items-stretch"
               >
                 <div
                   className="card mb-4 certificate flex-grow-1"
@@ -3596,7 +3596,7 @@ exports[`<ProfilePage /> Renders correctly in various states test preferreded la
   className="profile-page"
 >
   <div
-    className="profile-page-bg-banner bg-primary d-none d-md-block p-relative"
+    className="profile-page-bg-banner bg-primary d-md-block p-relative"
   />
   <div
     className="container-fluid"
@@ -5536,7 +5536,7 @@ exports[`<ProfilePage /> Renders correctly in various states test preferreded la
               className="row align-items-stretch"
             >
               <div
-                className="col col-sm-6 d-flex align-items-stretch"
+                className="col-12 col-sm-6 d-flex align-items-stretch"
               >
                 <div
                   className="card mb-4 certificate flex-grow-1"
@@ -5643,12 +5643,12 @@ exports[`<ProfilePage /> Renders correctly in various states test preferreded la
 </div>
 `;
 
-exports[`<ProfilePage /> Renders correctly in various states viewing other profile 1`] = `
+exports[`<ProfilePage /> Renders correctly in various states viewing other profile with all fields 1`] = `
 <div
   className="profile-page"
 >
   <div
-    className="profile-page-bg-banner bg-primary d-none d-md-block p-relative"
+    className="profile-page-bg-banner bg-primary d-md-block p-relative"
   />
   <div
     className="container-fluid"
@@ -5816,7 +5816,32 @@ exports[`<ProfilePage /> Renders correctly in various states viewing other profi
               "height": null,
             }
           }
-        />
+        >
+          <div
+            style={
+              Object {
+                "padding": ".1px 0",
+              }
+            }
+          >
+            <div
+              className="editable-item-header mb-2"
+            >
+              <h2
+                className="edit-section-header"
+                id={null}
+              >
+                Full Name
+              </h2>
+            </div>
+            <p
+              className="h5"
+              data-hj-suppress={true}
+            >
+              user
+            </p>
+          </div>
+        </div>
         <div
           className="pgn-transition-replace-group position-relative mb-5"
           style={
@@ -5824,7 +5849,30 @@ exports[`<ProfilePage /> Renders correctly in various states viewing other profi
               "height": null,
             }
           }
-        />
+        >
+          <div
+            style={
+              Object {
+                "padding": ".1px 0",
+              }
+            }
+          >
+            <div
+              className="editable-item-header mb-2"
+            >
+              <h2
+                className="edit-section-header"
+                id={null}
+              >
+                Location
+              </h2>
+            </div>
+            <p
+              className="h5"
+              data-hj-suppress={true}
+            />
+          </div>
+        </div>
         <div
           className="pgn-transition-replace-group position-relative mb-5"
           style={
@@ -5832,7 +5880,30 @@ exports[`<ProfilePage /> Renders correctly in various states viewing other profi
               "height": null,
             }
           }
-        />
+        >
+          <div
+            style={
+              Object {
+                "padding": ".1px 0",
+              }
+            }
+          >
+            <div
+              className="editable-item-header mb-2"
+            >
+              <h2
+                className="edit-section-header"
+                id={null}
+              >
+                Primary Language Spoken
+              </h2>
+            </div>
+            <p
+              className="h5"
+              data-hj-suppress={true}
+            />
+          </div>
+        </div>
         <div
           className="pgn-transition-replace-group position-relative mb-5"
           style={
@@ -5840,15 +5911,32 @@ exports[`<ProfilePage /> Renders correctly in various states viewing other profi
               "height": null,
             }
           }
-        />
-        <div
-          className="pgn-transition-replace-group position-relative mb-5"
-          style={
-            Object {
-              "height": null,
+        >
+          <div
+            style={
+              Object {
+                "padding": ".1px 0",
+              }
             }
-          }
-        />
+          >
+            <div
+              className="editable-item-header mb-2"
+            >
+              <h2
+                className="edit-section-header"
+                id={null}
+              >
+                Education
+              </h2>
+            </div>
+            <p
+              className="h5"
+              data-hj-suppress={true}
+            >
+              Other education
+            </p>
+          </div>
+        </div>
       </div>
       <div
         className="pt-md-3 col-md-8 col-lg-7 offset-lg-1"
@@ -5860,15 +5948,32 @@ exports[`<ProfilePage /> Renders correctly in various states viewing other profi
               "height": null,
             }
           }
-        />
-        <div
-          className="pgn-transition-replace-group position-relative mb-4"
-          style={
-            Object {
-              "height": null,
+        >
+          <div
+            style={
+              Object {
+                "padding": ".1px 0",
+              }
             }
-          }
-        />
+          >
+            <div
+              className="editable-item-header mb-2"
+            >
+              <h2
+                className="edit-section-header"
+                id={null}
+              >
+                About Me
+              </h2>
+            </div>
+            <p
+              className="lead"
+              data-hj-suppress={true}
+            >
+              bio
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -5880,7 +5985,7 @@ exports[`<ProfilePage /> Renders correctly in various states viewing own profile
   className="profile-page"
 >
   <div
-    className="profile-page-bg-banner bg-primary d-none d-md-block p-relative"
+    className="profile-page-bg-banner bg-primary d-md-block p-relative"
   />
   <div
     className="container-fluid"
@@ -6818,7 +6923,7 @@ exports[`<ProfilePage /> Renders correctly in various states viewing own profile
               className="row align-items-stretch"
             >
               <div
-                className="col col-sm-6 d-flex align-items-stretch"
+                className="col-12 col-sm-6 d-flex align-items-stretch"
               >
                 <div
                   className="card mb-4 certificate flex-grow-1"
@@ -6930,7 +7035,7 @@ exports[`<ProfilePage /> Renders correctly in various states while saving an edi
   className="profile-page"
 >
   <div
-    className="profile-page-bg-banner bg-primary d-none d-md-block p-relative"
+    className="profile-page-bg-banner bg-primary d-md-block p-relative"
   />
   <div
     className="container-fluid"
@@ -7935,7 +8040,7 @@ exports[`<ProfilePage /> Renders correctly in various states while saving an edi
               className="row align-items-stretch"
             >
               <div
-                className="col col-sm-6 d-flex align-items-stretch"
+                className="col-12 col-sm-6 d-flex align-items-stretch"
               >
                 <div
                   className="card mb-4 certificate flex-grow-1"
@@ -8047,7 +8152,7 @@ exports[`<ProfilePage /> Renders correctly in various states while saving an edi
   className="profile-page"
 >
   <div
-    className="profile-page-bg-banner bg-primary d-none d-md-block p-relative"
+    className="profile-page-bg-banner bg-primary d-md-block p-relative"
   />
   <div
     className="container-fluid"
@@ -9060,7 +9165,7 @@ exports[`<ProfilePage /> Renders correctly in various states while saving an edi
               className="row align-items-stretch"
             >
               <div
-                className="col col-sm-6 d-flex align-items-stretch"
+                className="col-12 col-sm-6 d-flex align-items-stretch"
               >
                 <div
                   className="card mb-4 certificate flex-grow-1"
@@ -9172,7 +9277,7 @@ exports[`<ProfilePage /> Renders correctly in various states without credentials
   className="profile-page"
 >
   <div
-    className="profile-page-bg-banner bg-primary d-none d-md-block p-relative"
+    className="profile-page-bg-banner bg-primary d-md-block p-relative"
   />
   <div
     className="container-fluid"
@@ -10020,7 +10125,7 @@ exports[`<ProfilePage /> Renders correctly in various states without credentials
               className="row align-items-stretch"
             >
               <div
-                className="col col-sm-6 d-flex align-items-stretch"
+                className="col-12 col-sm-6 d-flex align-items-stretch"
               >
                 <div
                   className="card mb-4 certificate flex-grow-1"
